@@ -39,7 +39,8 @@ function App() {
               <input
                 type="text"
                 name="mail"
-                placeholder="Email ou telefone"
+                placeholder="
+                email o teléfono"
                 className="form-input form-input--email"
                 onChange={(e) => dataHandler(e, "mail")}
               />
@@ -48,7 +49,7 @@ function App() {
               <input
                 type="password"
                 name="password"
-                placeholder="Senha"
+                placeholder="Clave"
                 onChange={(e) => dataHandler(e, "password")}
                 className="form-input form-input--password"
               />
@@ -67,7 +68,6 @@ function App() {
               ¿Olvido la contraseña?
             </a>
             <div className="divider"></div>
-            // eslint-disable-next-line
             <a href="#" className="form-create-account-btn">
               crear una nueva cuenta
             </a>
